@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>The Wandering Passport </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8JGH74FXC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E8JGH74FXC');
+
+        function toggleNav() {
+            document.querySelector('.nav_links').classList.toggle('mobileHide');
+            this.event.preventDefault();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <div id="nav_heading">
+            <h1 id="title">The Wandering Passport</h1> <span tabindex="0" onfocus="toggleNav()"><svg id="hamburger"
+                    onmousedown="toggleNav()" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg></span>
+        </div>
+
+        <nav class="nav_links mobileHide">
+            <ul>
+                <li class="nav_item"><a href="index.html" class="current">The Guide to Traveling</a>
+                </li>
+                <li class="nav_item"><a href="destinations.html">Destinations</a></li>
+                <li class="nav_item"><a href="photography.html">Photography</a></li>
+                <li class="nav_item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <main id="main">
+
+        <section id="intro">
+            <h2>Guide to Traveling
+            </h2>
+            <div id="plane">
+                <img src="images/paper-plane.png" alt="Flying paper plane" style="width:60px;height:50px;"> </div>
+        </section>
+        <section id="intro_text">
+            <div id="intro_text_container">
+                <p>One of the greatest experience anyone can have is traveling. It is the fastest way to
+                    immerse yourself
+                    into rich cultures, beautiful places and people. It is truly an eye opener that can change the way
+                    life
+                    is lived. The world is vast with a lot to offer with a ton of hidden gems that shouldn’t be missed
+                    out!
+                    It can sound daunting and like a lot of work is required to prepare but it doesn’t have to be.
+                    Knowing
+                    the essentials of how to get started can send you straight into an adventure of a lifetime!</p>
+
+                <p>The first essential and prize possession while traveling is your passport. Apply for a
+                    passport well in
+                    advance to avoid any stress about when it will arrive as it is the key to your departure. Next make
+                    digital copies as they can come in handy as you never want to risk your passport getting lost or
+                    pickpocketed abroad without any documentations. The passport is not only used for flying but many
+                    hotels
+                    abroad will require scanning your passport upon arrival. It is quite common and nothing to be
+                    worried
+                    about. </p>
+
+                <p>Next, research your destination. Decide upon a place you want to go to and see if it is
+                    of interest to
+                    you. Once a destination has been decided upon, before booking tickets look into whether you need a
+                    visa
+                    for that destination. For U.S passport holders, most of the UK, Europe and Asian countries do not
+                    require a visa or have visas upon arrival but it is best to make sure what the situation is before
+                    showing up as you will be denied entry if a visa is required. It is also important to check if any
+                    vaccinations are required. </p>
+                <p> Lastly, plan out your budget for the trip. Make sure you are spending on
+                    things you want to do and allotting money towards expenses you know you want to place on. Traveling
+                    there’s many options, compare accommodations and hotels. Cost can add up but having a plan can help.
+                    Most countries have ride sharing apps and local apps for transportation that can lower cost. Finding
+                    hotels nears local transportation such as buses and trains can make it easy to create routes to find
+                    the
+                    cheapest and fastest way to your destination. Also plan your itinerary, if you are traveling from
+                    one
+                    country to another, it is important to plan how long you are traveling, where you are going, how
+                    you’ll
+                    be going there.
+                    Lastly, GO. Book the flight, and enjoy!
+                </p>
+            </div>
+            <div id="intro_images">
+                <img src="images/passport.JPG" alt="Picture of Passport"><img src="images/planeview.JPG"
+                    alt="Sunrise View from Plane"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; Safa Viqar - 2020</p>
+    </footer>
+</body>
+
+</html>
